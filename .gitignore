@@ -1,0 +1,6 @@
+# pixi environments
+.pixi
+*.egg-info
+FroGS_streamlit.egg-info/
+pixi.lock
+pyproject.toml
