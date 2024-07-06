@@ -5,7 +5,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import normalize
 import io
 import csv
-import plotly.graph_objects as go
 
 def load_embeddings(file):
     content = file.getvalue().decode('utf-8')
